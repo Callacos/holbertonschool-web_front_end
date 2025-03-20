@@ -166,6 +166,8 @@ html {
     color: var(--section-title-color);  
 }
 
+/* Base link styles handled by the 'a' selector above */
+
 a[href]:visited {  
     font-style: italic;  
 }
