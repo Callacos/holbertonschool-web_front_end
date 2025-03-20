@@ -166,16 +166,9 @@ html {
     color: var(--section-title-color);  
 }
 
-/* Base link styles handled by the 'a' selector above */
-
-a[href]:visited {  
-    font-style: italic;  
-}
-
-a[href]:hover {  
-    text-decoration: underline;  
-}
-
-a[href]:active {  
-    background-color: var(--color-light-grey);  
+.section-tagline{
+    color:var(--color-primary);
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
 }
