@@ -135,6 +135,10 @@ html {
 	text-decoration: none;
   }
 
+  :root {
+	--section-header-align: center;
+  }
+  
   .section-header {
   text-align: var(--section-header-align);
   }
